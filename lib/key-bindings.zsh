@@ -53,3 +53,6 @@ bindkey '\C-x\C-e' edit-command-line
 ## Fix weird sequence that rxvt produces
 #bindkey -s '^[[Z' '\t'
 #
+# ~/.bashrc
+bindkey '\e[A' history-beginning-search-backward
+bindkey '\e[B' history-beginning-search-forward
